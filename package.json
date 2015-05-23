@@ -15,8 +15,18 @@
   ],
   "author": "Lim Yang Wei",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "hyk": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/yang-wei/hyk/issues"
   },
-  "homepage": "https://github.com/yang-wei/hyk"
+  "homepage": "https://github.com/yang-wei/hyk",
+  "dependencies": {
+    "clor": "^0.2.1",
+    "got": "^3.2.0",
+    "lie": "^2.8.1",
+    "xmldoc": "^0.3.0"
+  }
 }
