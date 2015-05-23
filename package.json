@@ -17,7 +17,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "hyk": "index.js"
+    "hyk": "bin/cmd.js"
   },
   "bugs": {
     "url": "https://github.com/yang-wei/hyk/issues"
