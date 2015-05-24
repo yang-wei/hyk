@@ -27,7 +27,6 @@
     "babel": "^5.4.7",
     "clor": "^0.2.1",
     "got": "^3.2.0",
-    "lie": "^2.8.1",
     "xmldoc": "^0.3.0"
   },
   "devDependencies": {
