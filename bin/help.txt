@@ -1,0 +1,10 @@
+Usage: hyk [word]
+
+Description:
+
+  Japanese - English translation in your command line
+
+Word: 
+
+  Currently support 1 word. Both Japanese and English
+
