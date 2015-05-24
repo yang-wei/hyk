@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetDicItemResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://btonic.est.co.jp/NetDic/NetDicV09">
+  <ErrorMessage />
+  <Head>
+    <div class="NetDicHead" xml:space="preserve" xmlns="">
+      <span class="NetDicHeadTitle">Fake</span>
+
+
+    </div>
+  </Head>
+  <Body>
+    <div class="NetDicBody" xml:space="preserve" xmlns="">
+      <div>Explanation</div>
+    </div>
+  </Body>
+</GetDicItemResult>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchDicItemResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://btonic.est.co.jp/NetDic/NetDicV09">
+  <ErrorMessage />
+  <TotalHitCount>1</TotalHitCount>
+  <ItemCount>1</ItemCount>
+  <TitleList>
+    <DicItemTitle>
+      <ItemID>1</ItemID>
+      <LocID />
+      <Title>
+        <span class="NetDicTitle" xmlns="">love</span>
+      </Title>
+    </DicItemTitle>
+  </TitleList>
+</SearchDicItemResult>
