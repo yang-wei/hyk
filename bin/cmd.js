@@ -1,7 +1,4 @@
 #!/usr/bin/env node
-
-require("babel/register");
-
 /**
  * Module dependencies
  */
