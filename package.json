@@ -1,20 +1,24 @@
 {
   "name": "hyk",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "Japanese - English translation in your command line",
   "main": "index.js",
   "scripts": {
     "build": "mkdir -p lib && babel src --out-dir lib",
     "watch": "babel src --watch --out-dir lib",
+    "test": "mocha --compilers js:babel/register test",
     "prepublish": "npm run build",
-    "test": "mocha --compilers js:babel/register test"
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/yang-wei/hyk"
   },
   "keywords": [
-    "Japanese"
+    "Japanese",
+    "English",
+    "translation",
+    "honyaku"
   ],
   "author": "Lim Yang Wei",
   "license": "MIT",
@@ -27,12 +31,13 @@
   },
   "homepage": "https://github.com/yang-wei/hyk",
   "dependencies": {
+    "babel": "^5.4.7",
     "clor": "^0.2.1",
     "got": "^3.2.0",
+    "lie": "^2.8.1",
     "xmldoc": "^0.3.0"
   },
   "devDependencies": {
-    "babel": "^5.4.7",
     "chai": "^2.3.0",
     "mocha": "^2.2.5",
     "nock": "^2.2.0"

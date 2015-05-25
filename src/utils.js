@@ -1,4 +1,5 @@
 import got from 'got';
+import Promise from 'lie';
 
 // Promise is awesome
 var fetch = function(url) {
