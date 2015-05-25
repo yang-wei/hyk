@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/yang-wei/hyk",
   "dependencies": {
-    "babel": "^5.4.7",
     "clor": "^0.2.1",
     "got": "^3.2.0",
     "xmldoc": "^0.3.0"
   },
   "devDependencies": {
+    "babel": "^5.4.7",
     "chai": "^2.3.0",
     "mocha": "^2.2.5",
     "nock": "^2.2.0"
