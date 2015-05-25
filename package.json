@@ -4,6 +4,9 @@
   "description": "Japanese - English translation in your command line",
   "main": "index.js",
   "scripts": {
+    "build": "mkdir -p lib && babel src --out-dir lib",
+    "watch": "babel src --watch --out-dir lib",
+    "prepublish": "npm run build",
     "test": "mocha --compilers js:babel/register test"
   },
   "repository": {
